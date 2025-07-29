@@ -1,0 +1,12 @@
+node_modules/
+coverage/
+playwright-report/
+.vscode/
+*.log
+*.tmp
+*.mp4
+*.zip
+.env
+dist/
+output/
+*.sqlite
