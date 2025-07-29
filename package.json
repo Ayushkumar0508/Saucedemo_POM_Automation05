@@ -1,0 +1,23 @@
+{
+  "name": "saucedemo_pom_automation05",
+  "version": "1.0.0",
+  "description": "Production-grade Playwright POM automation for saucedemo.com with advanced robustness, deterministic execution, and comprehensive reporting.",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "clean": "npx playwright remove-unused --quiet",
+    "lint": "echo 'Linting is manual for JS-only project'"
+  },
+  "author": "Auto-generated",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.43.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
